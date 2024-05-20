@@ -77,13 +77,6 @@ body {
 
 }
 
-.quienes somos{ 
-
-
-} 
-
-
-}
 
 
 .card {
@@ -94,10 +87,16 @@ body {
 #contacto {
     padding: 50px 0;
     color: white; 
+    text-align: center;
+    
+}
+
+.btn btn-primary{ 
+    display: flex; 
 }
 
 /* Footer */
-footer {
+/* footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
@@ -109,4 +108,29 @@ footer a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
+} */
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(63, 126, 243);
+    color: #fff;
+}
+
+.footer-left h3 {
+    margin: 0;
+}
+
+.footer-right a {
+    margin-left: 15px;
+    color: #fff;
+}
+
+.footer-right img {
+    width: 30px; /* Ajusta el tamaño de los íconos según tus necesidades */
+    height: 30px; /* Ajusta el tamaño de los íconos según tus necesidades */
+    color: #fff;
 }
