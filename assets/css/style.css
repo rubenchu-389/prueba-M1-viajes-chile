@@ -66,6 +66,7 @@ body {
 /* Destacados */
 #destacados {
     padding: 50px 0;
+    text-align: center;
 }
 
 
@@ -74,6 +75,7 @@ body {
    
     display: flex;
     margin-top: 120px; 
+    justify-content: center
 
 }
 
@@ -83,32 +85,27 @@ body {
     margin-bottom: 20px;
 }
 
+.car-body{
+
+    color: rgb(63, 126, 243);
+    text-emphasis-color: white; 
+}
 /* Contacto */
+
+
 #contacto {
     padding: 50px 0;
     color: white; 
-    text-align: center;
+    /* text-align: center; */
     
 }
+ .h2{
+     display: flex;
+ }
 
-.btn btn-primary{ 
+.btn{ 
     display: flex; 
 }
-
-/* Footer */
-/* footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-} */
 
 
 .footer {
